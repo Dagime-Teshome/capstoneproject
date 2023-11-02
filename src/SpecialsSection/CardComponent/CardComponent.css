@@ -1,0 +1,32 @@
+.card_class{
+    width: 15vw;
+    background-color: var(--highLightColor1);
+    border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+.card_class>img{
+  height: 20vh;
+  width: 100%;
+  object-fit: cover;
+  border-top-left-radius: 2rem;
+    border-top-right-radius: 2rem;
+}
+
+.card_class p{
+  font-family: var(--ff-Kar);
+}
+
+.card_class h5{
+  font-family: var(--ff-Kar);
+}
+.food_desc{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 2rem 1rem 0.5rem 1rem;
+}
+ .price{
+  display: flex;
+  justify-content: space-between;
+  
+ }

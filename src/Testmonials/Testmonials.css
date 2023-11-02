@@ -1,0 +1,21 @@
+.Testimonials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding: 0 20% 0 20%;
+    height: 40vh;
+    margin-top: 5rem;
+  }
+  .Testimonials>h2{
+    font-family: var(--ff-Mar);
+    text-align: center;
+  }
+  .testimonial_container{
+   width: 100%;
+   height: 80%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+ 

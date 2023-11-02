@@ -1,0 +1,58 @@
+.About{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 20% 0 20%;
+    height: 80vh;
+  }
+  
+  .overLap_images img{
+    height: 39vh;
+    width: 13vw;
+    object-fit: cover;
+    border-radius: 10%;
+    outline-style: solid;
+  }
+  .about_desc_wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5%;
+    width: 45%;
+  }
+  
+  .about_desc_wrapper h1{
+    line-height: 3rem;
+    font-family: var(--ff-Mar);
+  }
+  
+  .about_desc_wrapper > p{
+    font-family: var(--ff-Kar);
+    text-align: left;
+  }
+  
+  .hero_description  h2{
+    font-family: var(--ff-Mar);
+  }
+  .overLap_wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image-stack {
+    display: grid;
+    position: relative; 
+    grid-template-columns: repeat(12, 1fr);
+  }
+  
+  .image-stack__item--bottom {
+    grid-column: 5 / -1;
+    grid-row: 1;
+    z-index: 1;
+  }
+  
+  .image-stack__item--top {
+    grid-row: 1;
+    grid-column: 1 / span 8;
+    padding-top: 60%;
+    
+  }

@@ -1,0 +1,23 @@
+.card_container{
+    display: flex;
+    justify-content: space-between;
+   }
+
+  /* Specials Section Styles */
+  .specials_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 4rem;
+  }
+  
+  .specials_header>h2{
+    font-family: var(--ff-Mar);
+  }
+  .Specials{
+    width: 100vw;
+  }
+  .Specials_wrapper{
+    margin: 0 20% 0 20%;
+    height: fit-content;
+  }
