@@ -1,5 +1,5 @@
 import { CardComponent } from "./CardComponent/CardComponent";
-import css from "./SpecialsSection.css";
+import "./SpecialsSection.css";
 export function SpecialsSection() {
   return (
     <div className="Specials_wrapper">

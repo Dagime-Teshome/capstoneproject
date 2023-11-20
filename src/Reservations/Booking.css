@@ -1,0 +1,24 @@
+.form_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 5vh 0
+}
+
+.form_class {
+    display: grid;
+    max-width: 215px;
+    gap: 20px;
+}
+
+.form_container label,
+input,
+select {
+    font-family: var(--ff-Kar);
+    color: var(--highLightColor2);
+}
+
+/* .form_container input {
+    font-family: var(--ff-Kar);
+    color: var(--highLightColor2);
+} */

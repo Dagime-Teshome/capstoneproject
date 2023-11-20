@@ -1,7 +1,7 @@
-import { HeroSection } from "../Hero Section/HeroSection";
-import { SpecialsSection } from "../SpecialsSection/SpecialsSection";
-import { Testimonials } from "../Testmonials/Testmonials";
-import { AboutSection } from "../AboutSection/AboutSection";
+import { HeroSection } from "./Hero Section/HeroSection";
+import { SpecialsSection } from "./SpecialsSection/SpecialsSection";
+import { Testimonials } from "./Testmonials/Testmonials";
+import { AboutSection } from "./AboutSection/AboutSection";
 
 export function Main() {
   return (

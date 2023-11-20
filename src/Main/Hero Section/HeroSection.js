@@ -1,5 +1,5 @@
-import css from "./HeroSection.css";
-import foodImage from "../Assets/restauranfood.jpg";
+import "./HeroSection.css";
+import foodImage from "../../Assets/restauranfood.jpg";
 
 export function HeroSection() {
   return (

@@ -1,0 +1,52 @@
+.heroSec_wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  width: 100%;
+  padding: 0 20% 0 20%;
+  height: 40vh;
+}
+
+.hero_description {
+  width: 35%;
+  margin-top: 5%;
+}
+
+.hero_description>p {
+  font-family: var(--ff-Kar);
+  text-align: left;
+  margin-top: 1.25rem;
+}
+
+.hero_description>h1 {
+  font-family: var(--ff-Mar);
+  line-height: 3rem;
+}
+
+.hero_description>h3 {
+  font-family: var(--ff-Mar);
+}
+
+.hero_description>button {
+  margin-top: 10%;
+}
+
+
+
+.hero_image {
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+}
+
+.hero_image>img {
+  border-radius: 16px;
+  width: 16vw;
+  height: 48vh;
+  object-fit: cover;
+  margin-top: 10%;
+}
+
+.invisi_div {
+  height: 30vh;
+}

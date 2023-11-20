@@ -1,9 +1,9 @@
-import css from "./AboutSection.css";
-import res1 from "../Assets/restaurant.jpg";
-import res2 from "../Assets/restaurant chef B.jpg";
+import "./AboutSection.css";
+import res1 from "../../Assets/restaurant.jpg";
+import res2 from "../../Assets/restaurant chef B.jpg";
 export function AboutSection() {
   return (
-    <div className="About">
+    <div id="aboutSection" className="About">
       <div className="about_desc_wrapper">
         <span>
           <h1 className="primary_txt displayTitle fw_semibold">Little Lemon</h1>

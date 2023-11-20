@@ -1,5 +1,5 @@
-import lemoncake from "../../Assets/lemon dessert.jpg";
-import css from "./CardComponent.css";
+import lemoncake from "../../../Assets/lemon dessert.jpg";
+import "./CardComponent.css";
 
 export function CardComponent() {
   return (

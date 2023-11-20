@@ -1,5 +1,5 @@
 import { TestimonialsCard } from "./TestmonialCard/TestmonialCard";
-import css from "./Testmonials.css";
+import "./Testmonials.css";
 
 export function Testimonials() {
   return (

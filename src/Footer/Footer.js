@@ -1,5 +1,5 @@
 import img from "../Assets/Mario and Adrian b.jpg";
-
+import "./Footer.css";
 export function Footer() {
   return (
     <footer className="bg_primary_gr">
